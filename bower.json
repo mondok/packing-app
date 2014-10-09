@@ -1,0 +1,15 @@
+{
+  "name": "Packing App",
+  "description": "A small Angular application that makes a list of things to pack for a trip",
+  "version": "0.0.1",
+  "homepage": "https://github.com/mondok/packing-app",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "1.2.x",
+    "angular-route": "1.2.x",
+    "angular-loader": "1.2.x",
+    "html5-boilerplate": "~4.3.0",
+    "ng-group": "~0.9.0"
+  }
+}

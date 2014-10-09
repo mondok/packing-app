@@ -1,0 +1,8 @@
+<div ng-repeat="cat in items | groupBy:'category':'itemsCategory'">
+	<h2>{{cat.category}}</h2>
+	<ul>
+		<li ng-repeat="item in cat.items">
+			{{item.name}}: Pack {{item.number}}
+		</li>
+	</ul>
+</div>

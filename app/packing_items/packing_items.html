@@ -1,0 +1,10 @@
+<h2>Add items to pack here</h2>
+<input type="button" ng-click="addItem()" value="Add Item" />
+<div>
+	<div ng-repeat="item in items" class="item-separator">
+		<label>Name: </label><input	type="text" ng-model="item.name" />
+		<label>Category: </label><input	type="text" ng-model="item.category" />
+		<label>Count: </label><input type="number" ng-model="item.number" />
+		<input type="button" value="X" ng-click="removeItem(item)">
+	</div>
+</div>
