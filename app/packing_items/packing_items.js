@@ -11,7 +11,6 @@ angular.module('myApp.packingItems', ['ngRoute'])
 
 .controller('ItemsCtrl', ['$scope', 'items', function($scope, items) {
 	$scope.items = items;
-	window.i = items;
 	$scope.addItem = function(){
 		$scope.items.push({name: null, category: null, number: 0});
 	};

@@ -11,5 +11,4 @@ angular.module('myApp.printPackingItems', ['ngRoute'])
 
 .controller('PrintItemsCtrl', ['$scope', 'items', function($scope, items) {
 	$scope.items = items;
-	window.i = items;
 }]);
